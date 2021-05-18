@@ -78,6 +78,8 @@ jobs:
       run: |
         git clone https://github.com/vernesong/OpenClash package/openclash
         git clone https://github.com/kongfl888/luci-app-adguardhome package/adguardhome
+        git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+        git clone https://github.com/pymumu/luci-app-smartdns package/luci-smartdns
         
     - name: Argon new theme
       working-directory: ./openwrt
